@@ -3,5 +3,5 @@
 :: Zrobic opcje do zapisywania wersji jesli sie chce inna wersje jako kolejna
 set /P VERSION= < VERSION.txt
 git push origin v%VERSION%
-npm publish --access public
-::-version.bat && start firefox "https://www.npmjs.com/package/gitpad-each" && -ticket.bat
+npm publish --access public && start firefox "https://www.npmjs.com/package/gitpad-each"
+::-version.bat

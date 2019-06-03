@@ -1,0 +1,37 @@
+{
+  "name": "gitpad-each",
+  "version": "1.0.0",
+  "title": "each",
+  "description": "Each loop for gitpad",
+  "homepage": "https://github.com/gitpad-pl/each#readme",
+  "author": "Tom Sapletta <tom@sapletta.com> (https://tom.sapletta.com)",
+  "company": "Softreck OÜ (https://softreck.com)",
+  "license": "MIT",
+  "main": "./lib/each.js",
+  "directories": {
+    "test": "./test",
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "-github-push.bat",
+    "publish": "-npm-publish.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitpad-pl/github.git"
+  },
+  "keywords": [
+    "gitpad",
+    "github",
+    "devops",
+    "javascript",
+    "library",
+    "app",
+    "each",
+    "loop"
+  ],
+  "bugs": {
+    "url": "https://github.com/gitpad-pl/each/issues"
+  }
+}

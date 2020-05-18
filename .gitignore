@@ -1,3 +1,4 @@
 .apicra/
 test/
 .idea/
+/npm_modules/

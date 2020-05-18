@@ -1,5 +1,5 @@
 {
-  "name": "js-func-each",
+  "name": "@js-func/each",
   "version": "1.0.6",
   "title": "each loop",
   "description": "Each loop for Array list (Object Collection)",
@@ -9,17 +9,17 @@
   "license": "MIT",
   "main": "./lib/each.js",
   "directories": {
-    "test": "./test",
-    "lib": "./lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "push": "-github-push.bat",
-    "publish": "-npm-publish.bat"
+    "publish2": "-npm-publish.bat"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/js-func/each.git"
+    "url": "git+https://github.com/js-func/each.git"
   },
   "keywords": [
     "js-func",

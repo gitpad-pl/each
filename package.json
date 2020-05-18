@@ -1,8 +1,8 @@
 {
   "name": "gitpad-each",
-  "version": "1.0.5",
-  "title": "each",
-  "description": "Each loop for gitpad",
+  "version": "1.0.6",
+  "title": "each loop",
+  "description": "Each loop for Array list (Object Collection)",
   "homepage": "https://github.com/gitpad-pl/each#readme",
   "author": "Tom Sapletta <tom@sapletta.com> (https://tom.sapletta.com)",
   "company": "Softreck OÜ (https://softreck.com)",

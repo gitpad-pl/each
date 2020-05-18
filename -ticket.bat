@@ -15,7 +15,7 @@ echo %CONTENT% >> "Ticket\v%VERSION%.md"
 ::pause
 ::endlocal
 :: && echo This is a sample text file > "Ticket\%VERSION%.md"
-::set VERSION="$(npm view gitpad-github version)"
+::set VERSION="$(npm view js-func-github version)"
 ::for /f %%i in ('dir /b /od Ticket\*.md') do @set filename=%%i
 ::set /p ticket=<Ticket\%filename%
 ::for /f "delims==" %%a in (Ticket\%filename%) do set ticket=%%a
